@@ -1,0 +1,17 @@
+# Ignore backend node_modules and env
+backend/node_modules/
+backend/.env
+
+# Ignore logs
+*.log
+logs/
+
+# Ignore OS/system files
+.DS_Store
+Thumbs.db
+
+# Ignore test coverage (if any)
+coverage/
+
+# Ignore build (if React is built)
+build/
